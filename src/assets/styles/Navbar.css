@@ -1,0 +1,65 @@
+/* Navbar Genel Stili */
+.navbar {
+  padding: 10px 20px;
+  background-color: #AD0A27;
+}
+
+/* Navbar Logo */
+.navbar-logo {
+  width: 120px;
+  height: auto;
+}
+
+/* Navbar Butonlarını Köşeli Yap */
+.navbar-right .btn {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px; /* Köşeli yapmak için */
+  padding: 5px 20px;
+  color: rgb(16, 15, 15);
+  background-color: #D4002A;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.navbar-right .btn:hover {
+  background-color: #e32813;
+  border-color: rgb(27, 26, 26);
+}
+
+/* Dil Seçme Dropdown */
+.navbar-right .dropdown-menu {
+  min-width: 150px;
+}
+
+.navbar-right .dropdown-item {
+  font-size: 14px;
+  padding: 10px;
+}
+/* Dil Bayrağı Stili */
+.language-flag {
+  width: 24px; /* Bayrağı küçült */
+  height: 16px; /* Yüksekliği ayarla */
+  object-fit: contain; /* Bayrağın oranlarını koru */
+  margin-right: 5px; /* Bayrak ve yazı arasında boşluk bırak */
+  vertical-align: middle; /* Yazıyla hizalamak için */
+}
+
+
+/* Çıkış Butonu (Logout) */
+.logout-button {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px; /* Köşeli yapmak için */
+  padding: 5px 20px;
+  color: white;
+  background-color: #D4002A;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.logout-button:hover {
+  background-color: #e32813;
+  border-color: white;
+}

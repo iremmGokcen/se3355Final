@@ -1,0 +1,221 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #343a40;
+  padding: 20px;
+}
+
+.register-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.register-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.register-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.register-input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.register-label {
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #555;
+}
+
+.register-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #d4002a;
+}
+
+.register-button {
+  margin-top: 15px;
+  padding: 8px;
+  width: 40%;
+  background-color: #d4002a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  align-self: center;
+}
+
+.register-button:hover {
+  background-color: #ad0a27;
+}
+
+/* .photo-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.placeholder-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #777;
+} */
+
+.photo-label {
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.photo-input {
+  display: none;
+}
+
+.photo-edit-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #d4002a;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.photo-edit-icon:hover {
+  background-color: #ad0a27;
+}
+
+
+/* Fotoğraf Yükleme Alanı */
+.photo-container {
+  position: relative;
+  width: 120px;  /* Fotoğraf alanı genişliği */
+  height: 120px; /* Fotoğraf alanı yüksekliği */
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+/* Kullanıcının yüklediği fotoğraf */
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Fotoğrafı alanın içine sığdırır */
+  border-radius: 50%; /* Yuvarlak görünüm */
+}
+
+/* Placeholder (Varsayılan resim) */
+.placeholder-photo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+}
+
+/* Fotoğraf Yükleme Butonu */
+/* .photo-input {
+  display: none; 
+} */
+
+/* Düzenleme butonu */
+/* .photo-edit-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.photo-edit-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+} */
+
+
+.login-redirect {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.login-redirect a {
+  color: #d4002a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-redirect a:hover {
+  text-decoration: underline;
+}

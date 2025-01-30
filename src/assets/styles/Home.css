@@ -1,0 +1,145 @@
+
+.rent-section {
+  background-color: #343a40;
+  padding: 10px;
+}
+
+.rent-section h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: start;
+  margin-bottom: 0;
+}
+
+.rent-row {
+  gap: 20px;
+  padding: 2rem;
+  flex-wrap: wrap;
+  background-color: #5f6163b9;
+  border-radius: 10px;
+}
+
+.rent-item {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+
+.with-divider {
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  /* margin-bottom: 10px; */
+}
+
+.with-divider::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #AD0A27;
+}
+
+.btn-find-location {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-left: 1px solid #E1DED9;
+  border-radius: 0;
+}
+
+.btn-find-location i{
+  color: #D4002A;
+}
+
+.modern-input {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.modern-input:focus {
+  border: none;
+  outline: 2px solid red;
+}
+
+.modern-date-time {
+  gap: 10px;
+}
+
+.modern-button {
+  background-color: #D4002A;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modern-button:hover {
+  background-color: #AD0A27;
+}
+
+
+.office-suggestions {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.office-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.office-number {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.office-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.office-card .card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.office-card p {
+  margin: 0;
+}
